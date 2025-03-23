@@ -1,4 +1,12 @@
 ## C-programming and CPP
+
+### Index:
+- HeaderFiles
+- raylib
+- cpp
+- problemsinCPP
+
+
 - #### Header Files:
     - The following directory, contains, code relevant to c language, and cpp (code with harry)
 
