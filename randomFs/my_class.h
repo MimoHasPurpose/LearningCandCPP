@@ -5,7 +5,7 @@
 using namespace std;
 namespace N
 {
-    class randgen
+    class randnum
     {
     public:
     int a;
@@ -21,11 +21,15 @@ namespace N
     void values_les_b(int b){
         srand(time(0));
         cout<<rand()%b<<endl;
-        cout<<b<<endl;
+        
     }
          
         
     };
+
+    class randstr{
+
+    }
 }
 
 #endif /* MY_CLASS_H */
