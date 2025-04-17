@@ -1,0 +1,1 @@
+- include `srand(time(0));` before rand();
