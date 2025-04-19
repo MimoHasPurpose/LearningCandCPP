@@ -1,2 +1,1 @@
-g++ graphics.cpp  -o out -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
-./out
+g++ -o out birdfly.cpp   -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
