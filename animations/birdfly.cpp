@@ -1,10 +1,9 @@
-/*******************************************************************************************
-*   NOTE: Images are loaded in CPU memory (RAM); textures are loaded in GPU memory (VRAM)
-********************************************************************************************/
-#include<stdio.h>
-#include<iostream>
-#include<cstdlib>
 
+// *   NOTE: Images are loaded in CPU memory (RAM); textures are loaded in GPU memory (VRAM)
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctime>
 #include "raylib.h"
 using namespace std;
 int main(void)
