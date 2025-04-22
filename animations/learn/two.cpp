@@ -7,7 +7,7 @@ int main(void)
 
     if (pid == 0) {
         // Child process - Second Window
-        InitWindow(400, 300, "Second Window");
+        InitWindow(400, 300, "catches object");
         SetWindowPosition(500, 100);
         SetTargetFPS(60);
 
@@ -21,14 +21,14 @@ int main(void)
         CloseWindow();
     } else {
         // Parent process - Main Window
-        InitWindow(400, 300, "Main Window");
+        InitWindow(400, 300, "catching window");
         SetWindowPosition(50, 100);
         SetTargetFPS(60);
 
         while (!WindowShouldClose()) {
             BeginDrawing();
             ClearBackground(RAYWHITE);
-            DrawText("This is the MAIN window", 20, 130, 20, DARKBLUE);
+            // DrawText("", 20, 130, 20, DARKBLUE);
             EndDrawing();
         }
 
