@@ -6,29 +6,30 @@ int main(void)
     pid_t pid = fork();
 
     if (pid == 0) {
-        // Child process - Second Window
-        InitWindow(400, 300, "catches object");
+        InitWindow(400, 300, "catch ");
         SetWindowPosition(500, 100);
+
         SetTargetFPS(60);
 
         while (!WindowShouldClose()) {
             BeginDrawing();
             ClearBackground(DARKGRAY);
-            DrawText("This is the SECOND window", 20, 130, 20, RAYWHITE);
+           
+
             EndDrawing();
         }
 
         CloseWindow();
     } else {
-        // Parent process - Main Window
-        InitWindow(400, 300, "catching window");
+        InitWindow(400, 300, "throw ");
         SetWindowPosition(50, 100);
         SetTargetFPS(60);
-
+        
         while (!WindowShouldClose()) {
             BeginDrawing();
             ClearBackground(RAYWHITE);
-            // DrawText("", 20, 130, 20, DARKBLUE);
+          
+
             EndDrawing();
         }
 
