@@ -5,6 +5,15 @@
 - raylib
 - cpp
 - problemsinCPP
+- mysys
+
+
+### MYSYS:
+- i installed g++ using mysys/mingw
+- installed libraries via mysys
+- used those libraries
+- solved problem of manually installing libraries.
+  
 
 
 - #### Header Files:
